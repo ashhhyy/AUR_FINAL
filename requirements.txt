@@ -1,0 +1,14 @@
+# Flask web framework
+Flask>=2.3.3
+Flask-CORS>=4.0.0
+
+# Hardware control libraries
+RPi.GPIO>=0.7.1
+adafruit-circuitpython-mpu6050>=1.1.6
+adafruit-blinka>=8.22.2
+
+# Image processing
+Pillow>=10.0.1
+
+# Utilities
+numpy>=1.24.3

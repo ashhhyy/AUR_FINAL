@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Control API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .endpoint {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .method {
+            font-weight: bold;
+            color: #333;
+        }
+        .path {
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Autonomous Underwater Robot API</h1>
+    <div class="endpoint">
+        <p><span class="method">GET</span> <span class="path">/status</span></p>
+        <p>Returns the current motion status of the robot.</p>
+    </div>
+    <div class="endpoint">
+        <p><span class="method">POST</span> <span class="path">/start</span></p>
+        <p>Starts the autonomous motion control.</p>
+    </div>
+    <div class="endpoint">
+        <p><span class="method">POST</span> <span class="path">/stop</span></p>
+        <p>Stops the autonomous motion control.</p>
+    </div>
+    <div class="endpoint">
+        <p><span class="method">GET</span> <span class="path">/images</span></p>
+        <p>Returns the latest captured images from ESP32-CAM.</p>
+    </div>
+</body>
+</html>
